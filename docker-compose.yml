@@ -24,8 +24,6 @@ services:
     container_name: "pozos-api"
     volumes:
       - ./simple_api/student_age.json:/data/student_age.json
-    ports:
-      - 4000:5000
     networks:
       - pozos 
 
